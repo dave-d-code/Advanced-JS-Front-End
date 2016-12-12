@@ -1,0 +1,13 @@
+Build the simple simon game.
+
+Site displays a series of lighted buttons, which you have to follow the pattern.
+
+Some thoughts.
+
+Computer ARRAY to record the sequence, (at random)
+
+Player ARRAY to record the player sequence. Then compare the arrays at each position. Button 1,2,3 4 etc.
+
+array length for number of moves.
+
+Start with the physical output of the array sequence, with 4 buttons. See if can make dynamic selector in Jquery for the response. doable.

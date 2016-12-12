@@ -1,0 +1,27 @@
+Build the game of tic tac toe in JS.
+
+Some thoughts.
+
+1. How to represent the game panel in JS. Maybe as an array, with 3 arrays inside.
+
+2. Some possible AI features? at first, just use available random placements, then add AI later if you can.
+
+3. Rules for winning. maybe x == 1 and O == 2. Empty places will need to be filled in with zero.
+
+Have to find best method to loop thru both sets of arrays to find empty spot. also same fun to output the
+actual display in a different function.
+
+4. Need function to loop thru the array set. perhaps objects might help here. array[0][1].value??
+
+5. draw out array diagram and find out clever way to see if win.. will need a "check win function"
+
+if (array[i][0] == array[i][1] && ...) or can you chain 3 together.. sandbox if you can do a == b == c
+
+AI rules.
+
+1. loop throug to see if winning posn
+2. go for the middle
+3. go for the corners
+4. pick anywhere
+
+Start with the array first, then add interactivity last. doable.

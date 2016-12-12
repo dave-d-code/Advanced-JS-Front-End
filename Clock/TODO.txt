@@ -1,0 +1,10 @@
+
+
+1. Use Jquery library.
+2. Need to have a clock with counts down and displays an output. Build this first
+	It will involve interval of 1000 and some way of counting down.
+	Start with seconds, counting down, then possibly use a Math calc function to work out the
+	actual display.
+3. Then more buttons to alter the count.
+4. Then need a break function.
+5. display with CSS to look good. Start using some sass.
